@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok Ilmiah Remaja - Bani Saleh</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        .main-text {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            text-align: center;
+            align-items: center;
+        }
+
+        .KIR {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        nav {
+            background-color: #0D7C66;
+        }
+
+        #program{
+            background-color: #41B3A2;
+            border-radius: 10px;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand main-text" href="#"><img src="assets/images/logoBanSal.png" alt="" width="40"
+                    height="40"> Kelompok Ilmiah Remaja</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#pengenalan">Pengenalan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#program">Program Kerja</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#jadwal">Jadwal Kegiatan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#dokumentasi">Dokumentasi</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#absensi">Absensi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#daftar">Daftar Anggota</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sosial">Media Sosial</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Pengenalan Ekskul -->
+    <section id="pengenalan" class="container mt-5">
+        <div class="container d-flex align-middle">
+            <div class="align-middle">
+                <h2 class="KIR"><b>Kelompok Ilmiah Remaja</b></h2>
+                <p>Kelompok Ilmiah Remaja. KIR merupakan kegiatan ekstrakurikuler yang melibatkan remaja dalam berbagai kegiatan untuk menghasilkan karya ilmiah.</p>
+                <p>Kegiatan ini bertujuan untuk mengembangkan sikap ilmiah, kejujuran dalam gejala alam yang ditemui dalam dengan kepekaan yang tinggi berdasarkan metode yang sistematis, objektif, rasional, dan berprosedur. Sehingga kegiatan tersebut dapat memberikan kompetensi pengembangan diri dalam kehidupan.</p>
+            </div>
+            <!-- <img src="assets/images/chemist-concept-illustration.png" alt="" width="300" height="300"> -->
+        </div>
+    </section>
+
+    <!-- Program Kerja -->
+    <section id="program" class="container mt-5 p-1">
+        <h2>Program Kerja</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Program 1: Deskripsi singkat</li>
+            <li class="list-group-item">Program 2: Deskripsi singkat</li>
+            <li class="list-group-item">Program 3: Deskripsi singkat</li>
+        </ul>
+    </section>
+
+    <!-- Jadwal Kegiatan -->
+    <section id="jadwal" class="container mt-5">
+        <h2>Jadwal Kegiatan</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Tanggal</th>
+                    <th>Kegiatan</th>
+                    <th>Lokasi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01-10-2024</td>
+                    <td>Kegiatan 1</td>
+                    <td>Lapangan</td>
+                </tr>
+                <tr>
+                    <td>05-10-2024</td>
+                    <td>Kegiatan 2</td>
+                    <td>Aula</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Dokumentasi -->
+    <section id="dokumentasi" class="container mt-5">
+        <h2>Dokumentasi</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/300" class="img-fluid" alt="Dokumentasi 1">
+            </div>
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/300" class="img-fluid" alt="Dokumentasi 2">
+            </div>
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/300" class="img-fluid" alt="Dokumentasi 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Absensi -->
+    <section id="absensi" class="container mt-5">
+        <h2>Absensi Anggota</h2>
+        <form>
+            <div class="mb-3">
+                <label for="nama" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="nama" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Daftar Anggota -->
+    <section id="daftar" class="container mt-5">
+        <h2>Daftar Anggota</h2>
+        <form>
+            <div class="mb-3">
+                <label for="nama" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="nama" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Daftar</button>
+        </form>
+    </section>
+
+    <!-- Media Sosial -->
+    <section id="sosial" class="container mt-5 mb-5">
+        <h2>Media Sosial</h2>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#" class="btn btn-primary">Facebook</a></li>
+            <li class="list-inline-item"><a href="#" class="btn btn-info">Twitter</a></li>
+            <li class="list-inline-item"><a href="#" class="btn btn-danger">Instagram</a></li>
+        </ul>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
